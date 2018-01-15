@@ -2,11 +2,11 @@
 
 This repository will eventually contain all the material necessary to replicate our study or to reanalyze our data.
 
-###Current status:
+### Current status:
 * [Jan 5] Added data for experiments 1 and 2.
 * [Jan 15] Added analysis script for experiment 1.
 
-###Structure of this repository
+### Structure of this repository
 * analyses
   * exp1.R
   * helper scripts
