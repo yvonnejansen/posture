@@ -16,7 +16,7 @@ Structure of this repository
   * exp1.csv
   * exp2.csv
 * markdown
-  * exp1.md
+  * [exp1.md](markdown/exp1.md)
   * figure
     * charge_plot-1.png
     * discomfort_plot-1.png
