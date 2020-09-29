@@ -7,7 +7,7 @@ adjPDiff,float,"[-23.71429,40.875]",difference between adjP30 and adjP10
 condition,string,,name of the condition to which the participant was assigned
 gender,string,,gender of the participant
 index,integer,"[43, 83]",index on the BIS scale
-change,float,"[-36.64459,200.6135]",percent change measure (used as measure 2 in the article, see there for its definition)
+change,float,"[-36.64459,200.6135]","percent change measure (used as measure 2 in the article, see there for its definition)"
 subgroup,string,,combination of condition with classification of BIS index as high or low
 orig,float,"[15.01389,78.63333]",the original BART measure (used as measure 1 in the article)
 BIS,string,,classification of participant as having a high (index >= 64) or low BIS (index <= 63) with separation done at the median of index (63.5)
