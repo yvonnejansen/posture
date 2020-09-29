@@ -4,9 +4,9 @@ in_charge,integer,"[1,7]",self-reported feeling in charge measure,"To what exten
 power,integer,"[1,7]",self-reported sense of power,"How powerful do you feel?"
 fatigue,integer,"[1,7]",self-reported fatigue,"Did you find this task fatiguing?"
 difficult,integer,"[1,7]",self-reported task difficulty,"Did you find it difficult to hold your body in the required pose throughout the task?"
-p_id,integer,"[1-44]",participant id
+p_id,integer,"[1-44]",participant id,
 painful,integer,"[1,7]",self-reported pain,"Did you find it painful to hold your body in the required pose throughout the task?"
-height,integer,"[155,195]",participant's height in cm
-gender,string,,participant's gender
-condition_nr,integer,"[0,1]",numerical condition assignment
-condition_name,string,,condition assignment as string
+height,integer,"[155,195]",participant's height in cm,
+gender,string,,participant's gender,
+condition_nr,integer,"[0,1]",numerical condition assignment,
+condition_name,string,,condition assignment as string,
