@@ -1,5 +1,5 @@
 column_id,data_type,range,description
-participant,integer,"[1,88]",anonymous identifier for each participant
+participant,integer,"[1,80]",anonymous identifier for each participant
 adjP10,float,"[11,77]",mean for the first 10 repetitions of the BART
 adjP20,float,"[14.66667,74]",mean for repetitions 11-20 of the BART
 adjP30,float,"[14.77778,93.5]",mean for the last 10 repetitions of the BART

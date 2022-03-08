@@ -1,0 +1,59 @@
+column_id,data_type,range,description
+participant,integer,"[1,80]",anonymous identifier for each participant
+adjP,float,"[15.01389,78.63333]",the original BART measure (used as measure 1 in the article and named orig in the exp2.csv file)
+adjP10,float,"[11,77]",mean for the first 10 repetitions of the BART
+adjP20,float,"[14.66667,74]",mean for repetitions 11-20 of the BART
+adjP30,float,"[14.77778,93.5]",mean for the last 10 repetitions of the BART
+adjPDiff,float,"[-23.71429,40.875]",difference between adjP30 and adjP10
+condition,string,,name of the condition to which the participant was assigned
+points,integer,"[375,1046]",number of points gained corresponding to the total number of pumps a participant made
+exploded.balloons,integer,"[2,19]",number of balloons a participant pumped to the point at which they exploded
+change,float,"[-36.64459,200.6135]","percent change measure (used as measure 2 in the article, see there for its definition)"
+age,integer,"[19,54]",age of participant
+gender,string,,gender of the participant
+overall,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+comfort,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+smoothness,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+accuracy,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+force,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+mental.effort,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+physical.effort,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+finger,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+wrist,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+arm,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+shoulder,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+neck,integer,"[1,5]",ISO 9241-9 device assessment questionnaire
+I.plan.tasks.carefully.,string,,Item of the BIS-11 Barrett impulsiveness scale	
+I.do.things.without.thinking.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.make.up.my.mind.quickly.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.happy.go.lucky.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.don.t..pay.attention..,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.have..racing..thoughts.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.plan.trips.well.ahead.of.time.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.self.controlled.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.concentrate.easily.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.save.regularly.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I..squirm..at.plays.or.lectures.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.a.careful.thinker.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.plan.for.job.security.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.say.things.without.thinking.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.like.to.think.about.complex.problems.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.change.jobs.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.act..on.impulse..,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.get.easily.bored.when.solving.thought.problems.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.act.on.the.spur.of.the.moment.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.a.steady.thinker.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.change.residences.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.buy.things.on.impulse.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.can.only.think.about.one.thing.at.a.time.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.change.hobbies.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.spend.or.charge.more.than.I.earn.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.often.have.extraneous.thoughts.when.thinking.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.more.interested.in.the.present.than.the.future.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.restless.at.the.theater.or.lectures.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.like.puzzles.,string,,Item of the BIS-11 Barrett impulsiveness scale
+I.am.future.oriented.,string,,Item of the BIS-11 Barrett impulsiveness scale
+BIS_index,integer,"[43, 83]",computed index on the BIS scale (this variable is called index in the exp2.csv file)
+subgroup,string,,combination of condition with classification of BIS index as high or low
+orig,float,"[15.01389,78.63333]",the original BART measure (used as measure 1 in the article)
+BIS,string,,classification of participant as having a high (index >= 64) or low BIS (index <= 63) with separation done at the median of index (63.5)

@@ -1,0 +1,9 @@
+column_id,data_type,range,description
+participant,integer,"[1,80]",anonymous identifier for each participant
+condition,string,,name of the condition to which the participant was assigned
+total.money,integer,"[375,1046]",corresponds to the number of points gained corresponding to the total number of pumps a participant made (named points in exp2.csv)
+trial.number,integer,"[0,29]",trial / repetition number for a participant
+trial.money,integer,"[0,102]",same as pumps
+exploded,boolean,"[0,1]",indicates if the ballon of this trial exploded
+pumps,integer,"[3,104]",number of pumps a participant made
+life,integer,"[14,115",the number of pumps at which the ballon of this trial explodes (accordingly if exploded == 1 then life == pumps)
