@@ -14,7 +14,14 @@ This repository will eventually contain all the material necessary to replicate 
     * plotting functions.R
 * data
   * exp1.csv
+  * exp1_column-description.csv
   * exp2.csv
+  * exp2_column-description.csv
+    * raw data
+      * exp2-complete-column-descriptor.csv
+      * exp2-complete.csv
+      * exp2-raw-BART-data-column-descriptor.csv
+      * exp2-raw-BART-data.csv
 * markdown
   * [exp1.md - The complete analysis script for experiment 1](markdown/exp1.md) 
   * figure
