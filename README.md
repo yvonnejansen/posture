@@ -3,8 +3,9 @@
 This repository will eventually contain all the material necessary to replicate our study or to reanalyze our data.
 
 ### Current status:
-* [Jan 5] Added data for experiments 1 and 2.
-* [Jan 15] Added analysis script for experiment 1.
+* [Jan 5, 2018] Added data for experiments 1 and 2.
+* [Jan 15, 2018] Added analysis script for experiment 1.
+* [Mar 8, 2022] Added raw data files for experiment 2.
 
 ### Structure of this repository
 * analyses
